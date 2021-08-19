@@ -1,0 +1,108 @@
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  height: 85vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn.disabled {
+  background-color: #777;
+  cursor: not-allowed;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.Body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightcyan;
+}
+
+.Body-container, .image-container {
+  width: 70%;
+  -webkit-transition: all 0.5s ease-in 0.1s;
+  transition: all 0.5s ease-in 0.1s;
+}
+
+.image-container {
+  position: relative;
+  height: 30vh;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.image-container p {
+  font-size: 2rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.draggable {
+  position: absolute !important;
+}
+
+.SideBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  color: #fff;
+  height: 5vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #398;
+  text-decoration: underline;
+}
+
+.Footer {
+  height: 10vh;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

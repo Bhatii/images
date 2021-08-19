@@ -1,0 +1,15 @@
+.Home {
+    display: flex;
+    font-size: 1.5rem;
+    height: 85vh;
+    justify-content: space-around;
+}
+
+.btn.disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
+.draggable {
+    cursor: move;
+}
